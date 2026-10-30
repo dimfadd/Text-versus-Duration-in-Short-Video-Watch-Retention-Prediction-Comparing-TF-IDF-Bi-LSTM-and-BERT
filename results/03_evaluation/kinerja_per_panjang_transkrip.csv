@@ -1,0 +1,5 @@
+kelompok_panjang,n video,XGBoost (durasi saja) [durasi],TF-IDF + XGBoost [teks],BERT [teks],Bi-LSTM [teks],TF-IDF + XGBoost [teks + durasi],BERT [teks + durasi],Bi-LSTM [teks + durasi]
+5-14 kata,154,0.549,0.07,-0.081,0.017,0.531,0.085,0.142
+15-49 kata,187,0.529,0.145,0.204,0.066,0.499,0.291,0.227
+50-127 kata,199,0.292,0.167,0.227,0.018,0.388,0.275,0.082
+128 kata atau lebih,158,0.213,0.096,0.135,0.039,0.194,0.06,0.158

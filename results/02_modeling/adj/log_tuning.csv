@@ -1,0 +1,35 @@
+parameter,rmse_val,model,terpilih,riwayat_rmse_val
+"learning_rate=0.05, max_depth=2, n_pohon=101",0.19225236178101993,durasi_xgb,False,
+"learning_rate=0.05, max_depth=3, n_pohon=74",0.1922962458693154,durasi_xgb,False,
+"learning_rate=0.05, max_depth=4, n_pohon=29",0.19234379987615316,durasi_xgb,False,
+"learning_rate=0.1, max_depth=2, n_pohon=57",0.1923838484682955,durasi_xgb,False,
+"learning_rate=0.1, max_depth=3, n_pohon=21",0.19224980398882435,durasi_xgb,True,
+"learning_rate=0.1, max_depth=4, n_pohon=16",0.19239384963233727,durasi_xgb,False,
+"max_features=sqrt, min_samples_leaf=1",0.19014352647455524,tfidf_rf_teks,False,
+"max_features=sqrt, min_samples_leaf=5",0.18985831744353793,tfidf_rf_teks,False,
+"max_features=0.1, min_samples_leaf=1",0.19089551455216575,tfidf_rf_teks,False,
+"max_features=0.1, min_samples_leaf=5",0.18862907863870523,tfidf_rf_teks,True,
+"max_features=sqrt, min_samples_leaf=1",0.1903548244500992,tfidf_rf_gab,False,
+"max_features=sqrt, min_samples_leaf=5",0.18916563224526411,tfidf_rf_gab,False,
+"max_features=0.1, min_samples_leaf=1",0.18892413420648943,tfidf_rf_gab,False,
+"max_features=0.1, min_samples_leaf=5",0.18865806072612226,tfidf_rf_gab,True,
+"learning_rate=0.05, max_depth=3, n_pohon=52",0.1894006951528801,tfidf_xgb_teks,False,
+"learning_rate=0.05, max_depth=6, n_pohon=54",0.1892060802606009,tfidf_xgb_teks,False,
+"learning_rate=0.1, max_depth=3, n_pohon=93",0.18946516844233202,tfidf_xgb_teks,False,
+"learning_rate=0.1, max_depth=6, n_pohon=17",0.18914049447144546,tfidf_xgb_teks,True,
+"learning_rate=0.05, max_depth=3, n_pohon=133",0.18849319424156596,tfidf_xgb_gab,True,
+"learning_rate=0.05, max_depth=6, n_pohon=48",0.18967212721546026,tfidf_xgb_gab,False,
+"learning_rate=0.1, max_depth=3, n_pohon=66",0.188951201032671,tfidf_xgb_gab,False,
+"learning_rate=0.1, max_depth=6, n_pohon=46",0.18894199361325179,tfidf_xgb_gab,False,
+"lr=0.001, epoch=3",0.19421210249237553,bilstm_teks,False,"[0.1942, 0.1998, 0.2029]"
+"lr=0.003, epoch=3",0.19419576871067684,bilstm_teks,False,"[0.1942, 0.2056, 0.2057]"
+"lr=0.005, epoch=3",0.19261862733202614,bilstm_teks,True,"[0.1926, 0.1933, 0.1934]"
+"lr=0.001, epoch=3",0.19460005520036214,bilstm_gab,False,"[0.1946, 0.1994, 0.2018]"
+"lr=0.003, epoch=3",0.19341212814959485,bilstm_gab,True,"[0.1934, 0.2082, 0.2063]"
+"lr=0.005, epoch=3",0.1942133013359185,bilstm_gab,False,"[0.1942, 0.2026, 0.2024]"
+"lr=1e-05, epoch=8",0.18642166117156392,bert_teks,True,"[0.1915, 0.1901, 0.1885, 0.188, 0.1868, 0.1864, 0.1892, 0.1943]"
+"lr=3e-05, epoch=6",0.18822569284644705,bert_teks,False,"[0.1909, 0.1902, 0.1897, 0.1882, 0.1979, 0.1912]"
+"lr=5e-05, epoch=5",0.18910878143053497,bert_teks,False,"[0.1913, 0.1903, 0.1891, 0.1893, 0.1938]"
+"lr=1e-05, epoch=7",0.1877991554800368,bert_gab,True,"[0.192, 0.1901, 0.191, 0.1883, 0.1878, 0.188, 0.1919]"
+"lr=3e-05, epoch=5",0.1906291699344247,bert_gab,False,"[0.1907, 0.1948, 0.1906, 0.1918, 0.1962]"
+"lr=5e-05, epoch=6",0.19015619249742652,bert_gab,False,"[0.1925, 0.1907, 0.196, 0.1902, 0.2063, 0.2021]"

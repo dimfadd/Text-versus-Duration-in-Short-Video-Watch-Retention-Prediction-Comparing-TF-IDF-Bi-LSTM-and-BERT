@@ -1,0 +1,23 @@
+parameter,rmse_val,model,terpilih
+"learning_rate=0.05, max_depth=2, n_pohon=74",0.4302670125529228,durasi_xgb,False
+"learning_rate=0.05, max_depth=3, n_pohon=54",0.4306033517686256,durasi_xgb,False
+"learning_rate=0.05, max_depth=4, n_pohon=54",0.4322007458988428,durasi_xgb,False
+"learning_rate=0.1, max_depth=2, n_pohon=30",0.4295806405099903,durasi_xgb,True
+"learning_rate=0.1, max_depth=3, n_pohon=35",0.4298231604306495,durasi_xgb,False
+"learning_rate=0.1, max_depth=4, n_pohon=27",0.431563426575436,durasi_xgb,False
+"max_features=sqrt, min_samples_leaf=1",0.4949898582224456,tfidf_rf_teks,False
+"max_features=sqrt, min_samples_leaf=5",0.4916598634581711,tfidf_rf_teks,False
+"max_features=0.1, min_samples_leaf=1",0.4968755598814432,tfidf_rf_teks,False
+"max_features=0.1, min_samples_leaf=5",0.49061665281925293,tfidf_rf_teks,True
+"max_features=sqrt, min_samples_leaf=1",0.46564346058693445,tfidf_rf_gab,False
+"max_features=sqrt, min_samples_leaf=5",0.4700434694788679,tfidf_rf_gab,False
+"max_features=0.1, min_samples_leaf=1",0.44610507222208057,tfidf_rf_gab,False
+"max_features=0.1, min_samples_leaf=5",0.4357554208925722,tfidf_rf_gab,True
+"learning_rate=0.05, max_depth=3, n_pohon=131",0.4946945915027146,tfidf_xgb_teks,False
+"learning_rate=0.05, max_depth=6, n_pohon=131",0.49406153532219943,tfidf_xgb_teks,False
+"learning_rate=0.1, max_depth=3, n_pohon=42",0.49189189329305244,tfidf_xgb_teks,True
+"learning_rate=0.1, max_depth=6, n_pohon=37",0.4957041975630511,tfidf_xgb_teks,False
+"learning_rate=0.05, max_depth=3, n_pohon=69",0.42920453065052294,tfidf_xgb_gab,False
+"learning_rate=0.05, max_depth=6, n_pohon=61",0.42880946528277336,tfidf_xgb_gab,False
+"learning_rate=0.1, max_depth=3, n_pohon=53",0.42753823020160464,tfidf_xgb_gab,True
+"learning_rate=0.1, max_depth=6, n_pohon=29",0.4281212611626864,tfidf_xgb_gab,False

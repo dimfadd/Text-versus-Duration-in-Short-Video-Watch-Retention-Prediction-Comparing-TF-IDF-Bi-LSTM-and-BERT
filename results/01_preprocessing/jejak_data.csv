@@ -1,0 +1,7 @@
+Tahap,Jumlah video,Dibuang,Keterangan
+Video pada data interaksi,31496,,"794,053 baris, 129,483 interaksi unik"
+Memiliki transkrip ASR,31492,4,
+Durasi 5 sampai 120 detik,22620,8872,
+Minimal 5 penonton unik,5075,17545,
+Retensi lebih dari 0,5075,0,semua penonton menonton 0 detik
+Transkrip minimal 5 kata,4648,427,

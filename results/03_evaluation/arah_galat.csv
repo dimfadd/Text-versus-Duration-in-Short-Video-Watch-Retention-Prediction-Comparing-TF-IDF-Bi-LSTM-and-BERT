@@ -1,0 +1,4 @@
+rentang_retensi,n video,XGBoost (durasi saja) [durasi],TF-IDF + XGBoost [teks],BERT [teks],Bi-LSTM [teks],TF-IDF + XGBoost [teks + durasi],BERT [teks + durasi],Bi-LSTM [teks + durasi]
+"rendah (<0,33)",106.0,0.262,0.291,0.292,0.295,0.25,0.305,0.286
+sedang,368.0,0.023,0.036,0.043,0.021,0.023,0.06,0.031
+"tinggi (>0,66)",224.0,-0.18,-0.216,-0.208,-0.253,-0.178,-0.179,-0.224

@@ -1,0 +1,12 @@
+model,Jalur,Kombinasi dicoba,Parameter terpilih,RMSE validasi
+XGBoost (durasi saja),durasi,6,"learning_rate=0.05, max_depth=2, n_pohon=45",0.1924
+TF-IDF + RF,teks,4,"max_features=0.1, min_samples_leaf=5",0.203
+TF-IDF + RF,teks + durasi,4,"max_features=0.1, min_samples_leaf=1",0.1884
+TF-IDF + XGBoost,teks,4,"learning_rate=0.05, max_depth=3, n_pohon=138",0.2023
+TF-IDF + XGBoost,teks + durasi,4,"learning_rate=0.05, max_depth=3, n_pohon=165",0.1888
+Bi-LSTM,teks,3,"lr=0.005, epoch=3",0.2244
+Bi-LSTM,teks + durasi,3,"lr=0.003, epoch=3",0.2126
+BERT,teks,3,"lr=1e-05, epoch=5",0.2017
+BERT,teks + durasi,3,"lr=5e-05, epoch=5",0.2006
+BERT (durasi diproyeksikan),ablation,3,"lr=1e-05, epoch=5",0.2025
+BERT (durasi sebagai teks),ablation,3,"lr=5e-05, epoch=4",0.1907

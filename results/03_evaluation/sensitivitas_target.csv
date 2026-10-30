@@ -1,0 +1,12 @@
+Jalur,Model,SRC utama,SRC tanpa pemotongan,SRC tanpa video plafon
+durasi,XGBoost (durasi saja),0.476,0.61,0.46
+teks,TF-IDF + RF,0.299,0.382,0.292
+teks,TF-IDF + XGBoost,0.277,0.365,0.268
+teks,BERT,0.272,,0.261
+teks,Bi-LSTM,0.1,,0.099
+teks + durasi,TF-IDF + XGBoost,0.483,0.599,0.468
+teks + durasi,TF-IDF + RF,0.461,0.56,0.448
+teks + durasi,BERT,0.319,,0.306
+teks + durasi,Bi-LSTM,0.255,,0.245
+ablation,BERT (durasi sebagai teks),0.47,,0.455
+ablation,BERT (durasi diproyeksikan),0.302,,0.294

@@ -1,0 +1,16 @@
+Kolom,Tipe,Contoh nilai,Keterangan
+pid,int64,33393,ID video
+author_id,int64,1489590427,ID kreator
+text_clean,object,how to get the blue sky when it's not th,Transkrip ASR yang sudah dibersihkan (input X teks)
+duration,float64,15.133,Durasi video dalam detik
+duration_norm,float64,0.329,Durasi setelah log dan MinMax (input X metadata)
+retensi,float64,0.673,"Target utama Y: rata-rata min(watch_time / durasi, 1)"
+retensi_adj,float64,0.069,Target pembanding: retensi dikurangi rata-rata retensi pada durasi yang sama
+retensi_tanpa_clip,float64,0.888,Target pembanding: rata-rata watch_time / durasi tanpa dipotong
+detik_tonton,float64,10.185,Rata-rata detik yang ditonton (maksimal sebesar durasi)
+pct_tonton_ulang,float64,0.556,Proporsi interaksi yang menonton lebih dari satu kali durasi
+n_tayangan,int64,9,Jumlah interaksi unik
+n_penonton,int64,9,Jumlah penonton unik
+word_count,int64,58,Jumlah kata transkrip
+category_root_name,object,talent,Kategori utama video (hanya deskripsi)
+split,object,train,"Partisi: train, val, atau test"

@@ -1,0 +1,16 @@
+Kelompok,Model A,Model B,Selisih SRC,IK95% bawah,IK95% atas,p bootstrap,Selisih Precision@10%,p Holm,Signifikan (Holm)
+Teks saja,BERT [teks],TF-IDF + XGBoost [teks],-0.0051,-0.0534,0.0431,0.827,0.0286,1.0,tidak
+Teks saja,BERT [teks],TF-IDF + RF [teks],-0.0268,-0.0715,0.0188,0.23,0.0,0.92,tidak
+Teks saja,BERT [teks],Bi-LSTM [teks],0.1713,0.0794,0.2662,0.0005,0.0286,0.0075,ya
+Teks saja,TF-IDF + XGBoost [teks],Bi-LSTM [teks],0.1764,0.0902,0.2607,0.0005,0.0,0.0075,ya
+Teks + durasi,TF-IDF + XGBoost [teks + durasi],BERT [teks + durasi],0.1636,0.1039,0.2247,0.0005,0.2571,0.0075,ya
+Teks + durasi,TF-IDF + XGBoost [teks + durasi],Bi-LSTM [teks + durasi],0.2278,0.1633,0.2939,0.0005,0.2143,0.0075,ya
+Teks + durasi,BERT [teks + durasi],Bi-LSTM [teks + durasi],0.0643,-0.0146,0.1443,0.103,-0.0429,0.515,tidak
+Teks di atas durasi,TF-IDF + XGBoost [teks + durasi],XGBoost (durasi saja) [durasi],0.0071,-0.0211,0.0349,0.627,-0.0143,1.0,tidak
+Teks di atas durasi,TF-IDF + RF [teks + durasi],XGBoost (durasi saja) [durasi],-0.0143,-0.0471,0.0179,0.388,-0.0714,1.0,tidak
+Teks di atas durasi,Bi-LSTM [teks + durasi],XGBoost (durasi saja) [durasi],-0.2207,-0.2886,-0.1547,0.0005,-0.2286,0.0075,ya
+Teks di atas durasi,BERT [teks + durasi],XGBoost (durasi saja) [durasi],-0.1564,-0.2231,-0.0909,0.0005,-0.2714,0.0075,ya
+Efek durasi,TF-IDF + XGBoost [teks + durasi],TF-IDF + XGBoost [teks],0.206,0.1519,0.2629,0.0005,0.2857,0.0075,ya
+Efek durasi,TF-IDF + RF [teks + durasi],TF-IDF + RF [teks],0.1628,0.1138,0.2145,0.0005,0.2,0.0075,ya
+Efek durasi,Bi-LSTM [teks + durasi],Bi-LSTM [teks],0.1546,0.1026,0.2086,0.0005,0.0714,0.0075,ya
+Efek durasi,BERT [teks + durasi],BERT [teks],0.0476,0.0124,0.0817,0.006,0.0,0.036,ya

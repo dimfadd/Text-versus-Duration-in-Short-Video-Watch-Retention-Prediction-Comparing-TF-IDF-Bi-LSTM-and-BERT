@@ -1,0 +1,5 @@
+Varian,SRC,Selisih vs BERT teks saja,IK95% bawah,IK95% atas
+"BERT (teks saja, pembanding)",0.272,,,
+BERT (durasi late fusion),0.319,0.048,0.012,0.082
+BERT (durasi diproyeksikan),0.302,0.031,-0.008,0.067
+BERT (durasi sebagai teks),0.47,0.198,0.14,0.258

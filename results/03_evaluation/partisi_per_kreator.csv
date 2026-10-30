@@ -1,0 +1,10 @@
+Jalur,Model,SRC acak,SRC per kreator,IK95% bawah,IK95% atas,Selisih
+durasi,XGBoost (durasi saja),0.476,0.528,0.475,0.581,0.052
+teks,TF-IDF + RF,0.299,0.293,0.228,0.361,-0.006
+teks,TF-IDF + XGBoost,0.277,0.297,0.233,0.363,0.02
+teks,BERT,0.272,0.33,0.263,0.393,0.058
+teks,Bi-LSTM,0.1,0.088,0.018,0.157,-0.012
+teks + durasi,TF-IDF + XGBoost,0.483,0.528,0.473,0.582,0.045
+teks + durasi,TF-IDF + RF,0.461,0.491,0.437,0.546,0.03
+teks + durasi,BERT,0.319,0.361,0.297,0.424,0.042
+teks + durasi,Bi-LSTM,0.255,0.354,0.285,0.419,0.099
